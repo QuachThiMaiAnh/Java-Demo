@@ -14,5 +14,6 @@ public class Hello1 {
 		System.out.println("Tên: " + name);
 //		Rint làm tròn lên
 		System.out.println("Điểm = " + Math.rint(score));
+		scanner.close();
 	}
 }
