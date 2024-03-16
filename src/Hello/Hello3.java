@@ -8,6 +8,6 @@ public class Hello3 {
 		System.out.println("Nhập vào chiều dài cạnh lập phương: ");
 		double dai = scanner.nextDouble();
 		System.out.println("Thể tích hình lập phương bằng : " + Math.pow(dai, 3));
+		scanner.close();
 	}
-
 }
